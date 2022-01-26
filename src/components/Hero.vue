@@ -2,8 +2,8 @@
   <div class="jumbotron">
 
     <div class="top">
-      <h3> questo è il logo di Vue.js <br>
-        cliccaci sopra per scoprire la guida &rarr; </h3>
+      <h3>
+        cliccaci qui per scoprire la guida &rarr; </h3>
       <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
         Guida
       </a>
@@ -34,7 +34,10 @@ export default {
   border-radius: 25px;
   padding: 20px;
 }
-
+.top{
+  display: flex;
+  justify-content: center;
+}
 h3 {
   text-align: center;
   color: blue;
