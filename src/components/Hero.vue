@@ -4,8 +4,8 @@
     <div class="top">
       <h3> questo è il logo di Vue.js <br>
         cliccaci sopra per scoprire la guida &rarr; </h3>
-      <a href="https://vuejs.org/">
-        <img src="./assets/logo.png" alt="logo">
+      <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+        Guida
       </a>
     </div>
   </div>
@@ -29,6 +29,7 @@ export default {
 .jumbotron{
   min-height: 120px;
   width: 70%;
+  margin: 0 auto;
   background-color: rgb(152, 152, 152) ;
   border-radius: 25px;
   padding: 20px;
